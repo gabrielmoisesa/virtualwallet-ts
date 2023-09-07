@@ -1,0 +1,26 @@
+.wallet-form {
+  align-items: center;
+  background-color: #a6e1fa0e;
+  border-left: 1px solid #a6e1fa3b;
+  border-right: 1px solid #a6e1fa3b;
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  font-size: 1.25rem;
+  height: 10rem;
+  justify-content: center;
+  width: 89.85%;
+}
+
+.add-expense-button {
+  height: 2.25rem;
+  width: fit-content;
+}
+
+.wallet-form label input {
+  margin-left: 0.5rem;
+}
+
+.wallet-form label select {
+  margin-left: 0.5rem;
+}

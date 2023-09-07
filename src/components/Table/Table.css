@@ -1,0 +1,30 @@
+table {
+  background-color: #a6e1fa0e;
+  box-shadow: 0 1px 12px 0 var(--blue-400);
+  text-align: center;
+  width: 90%;
+}
+
+table , th , td {
+  border: 1px solid #a6e1fa3b;
+  border-collapse: collapse;
+  padding: 0.3rem;
+}
+
+.lighter-background {
+  background-color: #a6e1fa09;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  width: fit-content;
+}
+
+.delete-button:hover {
+  box-shadow: none;
+}
+
+.trash-bin-icon {
+  width: 35px;
+}

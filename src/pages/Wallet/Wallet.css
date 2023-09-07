@@ -1,0 +1,7 @@
+.main-wallet-content {
+  align-items: center;
+  backdrop-filter: blur(20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
