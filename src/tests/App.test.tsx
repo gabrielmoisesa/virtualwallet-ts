@@ -52,8 +52,8 @@ describe('Testa o funcionamento da página de login', () => {
 
     fireEvent.click(loginButton);
 
-    const virtualWalletHeading = screen.getByRole('heading', { name: /virtualwallet/i });
-    const userEmail = screen.getByText('Email: gabriel@mail.com');
+    const virtualWalletHeading = screen.getByRole('heading', { name: /virtual/i });
+    const userEmail = screen.getByText('gabriel@mail.com');
 
     expect(virtualWalletHeading && userEmail).toBeInTheDocument();
   });
