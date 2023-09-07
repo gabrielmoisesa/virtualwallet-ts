@@ -1,0 +1,10 @@
+.center-content {
+  align-items: center;
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+}
+
+.blue-100-text {
+  color: var(--blue-100);
+}

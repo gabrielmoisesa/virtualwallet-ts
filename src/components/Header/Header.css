@@ -1,0 +1,60 @@
+header {
+  align-items: center;
+  background-color: #a6e1fa0e;
+  border-bottom: 1px solid #a6e1fa3b;
+  box-shadow: 0 1px 12px 0 var(--blue-400);
+  display: flex;
+  font-size: 1.15rem;
+  gap: 5rem;
+  height: 10%;
+  justify-content: center;
+  width: 100%;
+}
+
+.wallet-icon {
+  width: 75px;
+}
+
+header > h1 {
+  align-items: center;
+  display: flex;
+  font-size: 2.5rem;
+  margin-left: 1rem;
+}
+
+.wallet-span {
+  color: var(--blue-100);
+}
+
+.expense-text {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.money-pie-icon {
+  width: 35px;
+}
+
+.price-span {
+  color: var(--blue-100);
+  font-weight: 700;
+}
+
+.total-expense-span {
+  font-weight: 700;
+}
+
+.email-text {
+  align-items: center;
+  display: flex;
+  gap: 0.25rem;
+}
+
+.user-icon {
+  width: 35px;
+}
+
+.email-span {
+  font-weight: 700;
+}

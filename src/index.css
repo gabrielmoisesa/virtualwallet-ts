@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+:root {
+  --blue-100: #A6E1FA;
+  --blue-200: #0E6BA8;
+  --blue-400: #0A2472;
+  --blue-500: #001C55;
+  --black: #00072D;
+  --gray: #444444;
+  --red: #DA0037;
+  --white: #EDEDED;
+}
+
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-size: 1.1rem;
+  background-image: url('./assets/conny-schneider-xuTJZ7uD7PI-unsplash.jpg');
+  backdrop-filter: blur(20px);
+  color: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input {
+  background-color: #a6e1fa3b;
+  border: 1px solid #a6e1fa3b;
+  border-radius: 4px;
+  color: var(--blue-100);
+  height: 1.65rem;
+  margin-top: 0.2rem;
+  width: 13.5rem;
+  font-size: 0.95rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  appearance: textfield;
+}
+
+input:focus {
+  outline: 1px solid var(--blue-400);
+  box-shadow: 0 1px 12px 0 var(--blue-400);
+}
+
+button {
+  border: none;
+  height: 1.45rem;
+  background-color: #a6e1fa36;
+  border: 1px solid #a6e1fa69;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 7.5rem;
+  height: 2rem;
+  font-size: 1rem;
+  transition: 0.25s;
+}
+
+button:hover {
+  box-shadow: 0 1px 12px 0 var(--blue-400);
+}
+
+button:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
+select {
+  background-color: #a6e1fa36;
+  border: 1px solid #a6e1fa69;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  height: 1.65rem;
+  font-size: 0.9rem;
+}
+
+select option {
+  color: var(--black);
+}
+
+select:focus {
+  box-shadow: 0 1px 12px 0 var(--blue-400);
+}
